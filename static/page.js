@@ -33,16 +33,7 @@ module.exports = function (req, res, url) {
 				height: '600', 
 				style:'display:block;margin-left:auto;margin-right:auto;',
 			};
-			<div class="container container-cc">
-
-
-        <ul class="breadcrumb">
-            <li><a href="https://web.archive.org/web/20181112041706/https://goanimate4schools.com/create">Make a video</a></li>
-            <li><a href="/html/charlist/wbancchtml.html">Whiteboard Animation Characters</a></li>
-            <li class="active">Create a new character</li>
-        </ul>
-		};
-			params = {
+		params = {
 				flashvars: {
 					'apiserver': '/', 'storePath': process.env.STORE_URL + '/<store>',
 					'clientThemePath': process.env.CLIENT_URL + '/<client_theme>', 'original_asset_id': query['id'] || null,
@@ -180,6 +171,14 @@ module.exports = function (req, res, url) {
         </div>
     </div>
 </nav>
+<div class="container container-cc">
+
+
+        <ul class="breadcrumb">
+            <li><a href="https://web.archive.org/web/20181112041706/https://goanimate4schools.com/create">Make a video</a></li>
+            <li><a href="/html/charlist/wbancchtml.html">Whiteboard Animation Characters</a></li>
+            <li class="active">Create a new character</li>
+        </ul>
 	
 	<body style="margin:0px" onload="hideHeader()">${toObjectString(attrs, params)
 		}</body>${stuff.pages[url.pathname] || ''}`);
