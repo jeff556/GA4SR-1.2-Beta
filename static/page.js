@@ -24,7 +24,7 @@ module.exports = function (req, res, url) {
 	var attrs, params, title;
 	switch (url.pathname) {
 		case '/character_creator/new_char': {
-			title = 'Import a character - Character Creator';
+			title = 'Make a Character - GoAnimate For Schools';
 			attrs = {
 				data: process.env.SWF_URL + '/cc.swf', // data: 'cc.swf',
 				type: 'application/x-shockwave-flash', 
@@ -45,6 +45,30 @@ module.exports = function (req, res, url) {
 			};
 			break;
 		}
+		case "/character_creator": {
+			title = "Make a Character - GoAnimate For Schools";
+			attrs = {
+				data: process.env.SWF_URL + "/cc_browser.swf", // data: 'cc_browser.swf',
+				type: "application/x-shockwave-flash",
+				id: "char_creator",
+				width: "100%",
+				height: "100%",
+			};
+			params = {
+				flashvars: {
+					'apiserver':'/', 'isEmbed':'0', 'ctc':'go', 'tlang':'en_US', 
+					'storePath': process.env.STORE_URL + '/<store>',
+					'clientThemePath': process.env.CLIENT_URL + '/<client_theme>',
+					'appCode':'go', 'siteId':'school', 'st':'', 'userId':'0DyHqK6Yj9dM', 'ut':23,'uisa':0,'themeId':'family',
+					'u_info_school':'OjI6c2xoVVM3MWJIX05DMnA4cmRBQ2dFd3JvNE5xc2JEc2o4UFB2X1dVd2Eya2RPQisxVTl4d3ZHZHJPYnI4QURFNENWMjNkYm12WFdlUGxLT0g0OG4rekF5ajZhWGRGVTlocmJ4S1JhSWhCVXJlTF9BbXdyQUp3PQ=='
+
+				},
+				allowScriptAccess: "always",
+				movie: process.env.SWF_URL + "/cc_browser.swf", // 'http://localhost/cc_browser.swf'
+			};
+			break;
+		}
+	
 		case '/videomaker/full': {
 			let presave = query.movieId && query.movieId.startsWith('m') ? query.movieId :
 				`m-${fUtil[query.noAutosave ? 'getNextFileId' : 'fillNextFileId']('movie-', '.xml')}`;
