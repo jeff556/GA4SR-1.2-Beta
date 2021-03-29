@@ -2,21 +2,21 @@
 	"GET": {
 		"/index.html": {
 			"headers": {
-				"Location": "/pages/html/list.html"
+				"Location": "/html/list.html"
 			},
 			"statusCode": 302,
 			"content": ""
 		},
 		"/dashboard/videos": {
 			"headers": {
-				"Location": "/pages/html/list.html"
+				"Location": "/html/list.html"
 			},
 			"statusCode": 302,
 			"content": ""
 		},
 		"/$": {
 			"headers": {
-				"Location": "/pages/html/list.html"
+				"Location": "/html/list.html"
 			},
 			"statusCode": 302,
 			"content": ""
@@ -37,7 +37,7 @@
 		},
 		"/videomaker/full/custom/tutorial": {
 			"headers": {
-				"Location": "/pages/html/lvm3.html"
+				"Location": "/pages/html/lvm.html"
 			},
 			"statusCode": 302,
 			"content": ""
