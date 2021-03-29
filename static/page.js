@@ -75,15 +75,14 @@ module.exports = function (req, res, url) {
 			};
 			params = {
 				flashvars: {
-					movieId: '', ut: '-1',
-            movieLid: '8', movieTitle: '', movieDesc: '', userId: '0DyHqK6Yj9dM',
-            apiserver: '/', copyable: '0', isPublished: '0', ctc: 'go', tlang: 'en_US', is_private_shared: '0',
-            autostart: '1', appCode: 'go', is_slideshow: '0', originalId: '0', is_emessage: '0', isEmbed: '0', refuser: '',
-            utm_source: '', uid: '', isTemplate: '1', showButtons: '0', chain_mids: '', showshare: '0', averageRating: '',
-                        ratingCount: '', fb_app_url: '/', numContact: 0, isInitFromExternal: 1, storePath: process.env.STORE_URL + '/<store>', 
-					clientThemePath: process.env.CLIENT_URL + '/<client_theme>', 
-            startFrame: startFrame
-   
+					'movieId: '', ut: '-1',
+           'movieLid': 8', movieTitle: '', movieDesc: '', userId': '0DyHqK6Yj9dM',
+           'apiserver: '/', copyable: '0', isPublished: '0', ctc': 'go', 'tlang': 'en_US', 'is_private_shared: '0',
+           'autostart: '1', appCode': 'go', 'is_slideshow: '0', originalId: '0', is_emessage: '0', isEmbed: '0', refuser: '',
+           'utm_source: '', uid: '', isTemplate: '1', showButtons: '0', chain_mids: '', showshare: '0', averageRating: '',
+                        'ratingCount: '', fb_app_url: '/', numContact: 0, isInitFromExternal: '1, 'storePath': 'process.env.STORE_URL + ''/<store>', 
+					'clientThemePath': 'process.env.CLIENT_URL + ''/<client_theme>', 
+  
     },
 				allowScriptAccess: 'always',
 				allowFullScreen: 'true',
