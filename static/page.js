@@ -82,7 +82,6 @@ module.exports = function (req, res, url) {
             utm_source: '', uid: '', isTemplate: '1', showButtons: '0', chain_mids: '', showshare: '0', averageRating: '',
                         ratingCount: '', fb_app_url: '/', numContact: 0, isInitFromExternal: 1, storePath: process.env.STORE_URL + '/<store>', 
 					clientThemePath: process.env.CLIENT_URL + '/<client_theme>', 
-					animationPath: process.env.ANIMATION_URL + ',
             startFrame: startFrame
    
     },
