@@ -37,7 +37,7 @@ module.exports = function (req, res, url) {
 				flashvars: {
 					'apiserver': '/', 'storePath': process.env.STORE_URL + '/<store>',
 					'clientThemePath': process.env.CLIENT_URL + '/<client_theme>', 'original_asset_id': query['id'] || null,
-					'themeId': 'business', 'ut': 23, 'bs': 'default', 'appCode': 'go', 'page': '', 'siteId': 'school',
+					'themeId': 'business', 'ut': 23, 'bs': 'default', 'appCode': 'go', 'page': '', 'siteId': 'school', 'userId': '0DyHqK6Yj9dM',
 					'm_mode': 'school', 'isLogin': 'Y', 'isEmbed': 0, 'ctc': 'go', 'tlang': 'en_US',
 				},
 				allowScriptAccess: 'always',
@@ -57,9 +57,9 @@ module.exports = function (req, res, url) {
 			params = {
 				flashvars: {
 					'apiserver': '/', 'storePath': process.env.STORE_URL + '/<store>', 'isEmbed': 1, 'ctc': 'go',
-					'ut': 23, 'bs': 'default', 'appCode': 'go', 'page': '', 'siteId': 'go', 'lid': 11, 'isLogin': 'Y', 'retut': 1,
+					'ut': 23, 'bs': 'default', 'appCode': 'go', 'page': '', 'siteId': 'go', 'userId': '0DyHqK6Yj9dM', 'lid': 11, 'isLogin': 'Y',
 					'clientThemePath': process.env.CLIENT_URL + '/<client_theme>', 'themeId': 'business', 'tlang': 'en_US',
-					'presaveId': presave, 'goteam_draft_only': 1, 'isWide': 1, 'nextUrl': '/pages/html/list.html',
+					'presaveId': presave, 'goteam_draft_only': 1, 'isWide': 1, 'nextUrl': '/html/list.html',
 				},
 				allowScriptAccess: 'always',
 			};
