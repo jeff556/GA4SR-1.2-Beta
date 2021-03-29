@@ -67,7 +67,7 @@ module.exports = function (req, res, url) {
 			break;
 		}
 
-		case '/player': {
+		case '/movie': {
 			title = 'Video Player - GoAnimate For Schools';
 			attrs = {
 				data: process.env.SWF_URL + '/player.swf',
