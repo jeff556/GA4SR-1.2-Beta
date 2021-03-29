@@ -35,10 +35,9 @@ module.exports = function (req, res, url) {
 			};
 		params = {
 				flashvars: {
-					'apiserver': '/', 'storePath': process.env.STORE_URL + '/<store>',
-					'clientThemePath': process.env.CLIENT_URL + '/<client_theme>', 'original_asset_id': query['id'] || null,
-					'themeId': 'business', 'ut': 23, 'bs': 'default', 'appCode': 'go', 'page': '', 'siteId': 'school', 'userId': '0DyHqK6Yj9dM',
-					'm_mode': 'school', 'isLogin': 'Y', 'isEmbed': 0, 'ctc': 'go', 'tlang': 'en_US',
+					'apiserver':'/', 'm_mode':'school', 'isLogin':'Y', 'isEmbed':'0', 'ctc':'go', 'tlang':'en_US', 'storePath':  process.env.STORE_URL + '/<store>',
+					'clientThemePath':  process.env.CLIENT_URL + '/<client_theme>', 'appCode':'go', 'page':'', 'siteId':'school', 'userId':'0DyHqK6Yj9dM', 
+					'themeId':'family', 'ut':23,'ft':'_sticky_filter_guy'
 				},
 				allowScriptAccess: 'always',
 				movie: process.env.SWF_URL + '/cc.swf', // 'http://localhost/cc.swf'
