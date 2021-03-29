@@ -57,7 +57,7 @@ module.exports = function (req, res, url) {
 				flashvars: {
 					'apiserver': '/', 'storePath': process.env.STORE_URL + '/<store>', 'isEmbed': 1, 'ctc': 'go',
 					'ut': 23, 'u_info_school': 'OjI6a2JxQzN0MFNSKzFTYW4wTENRc01PZ2N6TURkZ0J3OWFmTzRjeW9aS3l1ak04MCtnUE5CUFo3Y0hmT0JDZndlMDlCM1V0VVVfc05pTU41cGVHYXpKOXV4YVpPZG9icHNoMHNHZmtiWjMxRnpTYlFXNDdPNHk0PQ', 
-					'bs': 'default', 'appCode': 'go', 'page': '', 'siteId': '11', 'userId': '0DyHqK6Yj9dM', 'role':'student', 'lid': 11, 'isLogin': 'Y',
+					'bs': 'default', 'appCode': 'go', 'page': '', 'siteId': '13', 'userId': '0DyHqK6Yj9dM', 'role':'student', 'lid': 11, 'isLogin': 'Y',
 					'clientThemePath': process.env.CLIENT_URL + '/<client_theme>', 'themeId': 'business', 'tlang': 'en_US',
 					'presaveId': presave, 'goteam_draft_only': 1, 'isWide': 1, 'nextUrl': '/html/list.html',
 				},
