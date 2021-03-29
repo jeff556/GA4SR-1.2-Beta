@@ -75,8 +75,7 @@ module.exports = function (req, res, url) {
 			};
 			params = {
 				flashvars: {
-				        'movieId: ',
-                                        'movieTitle: ', 'movieDesc: ',
+				        'movieTitle: ', 'movieDesc: ','movieId: ',
 					'apiserver': '/', 'storePath': process.env.STORE_URL + '/<store>', 'ut': 60,
 					'autostart': 1, 'isWide': 1, 'clientThemePath': process.env.CLIENT_URL + '/<client_theme>',
 				},
