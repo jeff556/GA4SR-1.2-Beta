@@ -125,7 +125,7 @@ module.exports = function (req, res, url) {
                 <span class="icon-bar"></span>
               </button>
             <a class="navbar-brand" href="/" title="GoAnimate for Schools">
-                <img alt="GoAnimate for Schools" src="/pages/img/logo4s.png">
+                <img alt="GoAnimate for Schools" src="/html/themelist/themelistfiles/logo4s.png">
             </a>
         </div>
 
@@ -164,8 +164,8 @@ module.exports = function (req, res, url) {
                     </ul>
                 </li>
                 <li>
-                    <a class="hidden-sm hidden-md hidden-lg" href="/pages/html/lvm.html">Make a Video</a>
-                    <span class="site-nav-btn hidden-xs"><a class="btn btn-green" href="/pages/html/lvm.html">Make a Video</a></span>
+                    <a class="hidden-sm hidden-md hidden-lg" href="/html/lvm.html">Make a Video</a>
+                    <span class="site-nav-btn hidden-xs"><a class="btn btn-green" href="/html/lvm.html">Make a Video</a></span>
                 </li>
             </ul>
         </div>
