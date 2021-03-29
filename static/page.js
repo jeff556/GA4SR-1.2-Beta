@@ -106,6 +106,7 @@ module.exports = function (req, res, url) {
 			}
 		</script>
 		<link rel="stylesheet" type="text/css" href="/pages/css/common_combined.css.gz.css">
+                <link rel="stylesheet" href="/html/themelist/themelistfiles/old.css">
 		<link rel="stylesheet" type="text/css" href="/pages/css/cc.css.gz.css">
 		<style>
 			body {
