@@ -57,7 +57,7 @@ module.exports = function (req, res, url) {
 			params = {
 				flashvars: {
 					'apiserver': '/', 'storePath': process.env.STORE_URL + '/<store>', 'isEmbed': 1, 'ctc': 'go',
-					'ut': 23, 'bs': 'default', 'appCode': 'go', 'page': '', 'siteId': 'go', 'userId': '0DyHqK6Yj9dM', 'lid': 11, 'isLogin': 'Y',
+					'ut': 23, 'bs': 'default', 'appCode': 'go', 'page': '', 'siteId': '13', 'userId': '0DyHqK6Yj9dM', 'lid': 11, 'isLogin': 'Y',
 					'clientThemePath': process.env.CLIENT_URL + '/<client_theme>', 'themeId': 'business', 'tlang': 'en_US',
 					'presaveId': presave, 'goteam_draft_only': 1, 'isWide': 1, 'nextUrl': '/html/list.html',
 				},
